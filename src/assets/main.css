@@ -1,0 +1,22 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+.parent {
+  width: 600px;
+  padding: 10px;
+  background: rgb(157, 221, 157);
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.child{
+  margin-top: 10px;
+  background: green;
+  padding: 10px;
+  border-radius: 10px;
+}
+.second-child{
+  background: rgb(224, 165, 195);
+}

@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import ParentToChild from "./components/parent-to-child";
+import ChildToParent from "./components/child-to-parent";
+import ChildToChild from './components/child-to-child';
+import PropsToGrandParent from "./components/props-to-grand-child";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <ParentToChild />
+      <ChildToParent />
+      <ChildToChild />
+      <PropsToGrandParent />
     </div>
   );
 }
