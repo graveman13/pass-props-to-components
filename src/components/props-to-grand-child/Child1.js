@@ -8,7 +8,7 @@ export const Child1 = () => {
 
   return (
     <div className="child">
-      <p>Child 1 qcomponent</p>
+      <p>Child 1 component</p>
       <p>Data is(ContexParentData): {value}</p>
       <p>Data is(ContexStaticData){data}</p>
       <ContexStaticData.Provider value={{data:'information'}}>
